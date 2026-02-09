@@ -25,8 +25,25 @@ Data types: integers, floats, booleans, date strings, and multiple categorical/t
 #### Audience Response
 - Viewership declines after Season 1 while IMDb ratings remain relatively stable, indicating strong initial interest but weaker long-term retention.
 - Episodes featuring intense survival moments (multiple tap-outs, late-stage survival) often align with local peaks in viewership and ratings, suggesting high-intensity content is more engaging.
+  
+### Winners profile  EDA based on M2
+
+**Motivation:**  Help casting directors cast a diverse set of demographic and talent (“winner-type”, "looser-type","neither the winner nor looser" ) such that fairness and viewership is improved
+
+| Category   | Winner (Result == 1) | Looser  (Result == 10) |  Distinction (Yes/No) |   |
+|---------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---|---|
+| Country             | There were 10 winners even though there <br>were only 9 seasons because S4 had two winners.<br>Thus 70% US and 30% canadian won | All US<br>No looser for S4                    |  No |   |
+| Age Range           | 24-50 <br>Mostly winners in the range 30-35                                                                                  | Range 23-55<br>Mostly 35                      | After 50 no winners. There might be a combination<br> of factors with age can play a role  |   |
+| Gender              | Male                                                                                                                            |7/8 Male and 1/8 female                         | No  |   |
+| Medically Evacuated | None                                                                                                                            | 2 evacuated one Male (in S6) and one female (S5) | Yes, winners not medically evacuated  |   |
+|Locations            | Though most of locations are in Canada S1,S2,S3,S5,S6,S7,S8 US won;<br> where S4,S9 CAD WON                                                                                            | All loosers were from US           | No, As Quastino in S1 and S2 was won by US<br> and S4 were won by Canadian. Also the loosers<br> were from US  |   |
+| Days Lasted         | Min 56 max 100 days                                                                                                             | Dont last more than 15 days                   |  Yes Winners last longer |   |
+| Profession          |  Both Indoor(writer) and outdoor professionals won<br> however some outdoor professionals who work in tough environments<br> like correction officers and wilderness skills instructors did have the <br>lowest days lasted compared to others like hunting guide and even<br> freelance writers performed better than them                                              |        Both Indoor(writer) and outdoor professionals lost <br> howevers outdoor professionals like wildlife guide <br> lasted longer whereas indoor professional lasted for <br> less period                                       | No not clear  |   |
+| Item (gear list)    |   all winners used Saw                                                                                                                |     Fishing gear was used by all loosers                                          | No, though there are some common tools,<br> SAW was possesed by all winners but <br> there were 70% loosers using it too   |   |
+
+
 #### Motivation for Analysis
-- Identify whether “winner-type” contestants form a distinct cluster.
+- Help casting directors cast a diverse set of demographic and talent (“winner-type”, "looser-type","neither the winner nor looser" ) such that fairness and viewership is improved
 - Group locations into difficulty bands and link them to audience engagement.
 - Cluster episodes by survival and narrative patterns and compare viewership outcomes.
 #### Feasibility
