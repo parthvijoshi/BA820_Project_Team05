@@ -1,1 +1,68 @@
+# BA820 – Project M3
+
+## A Data-Driven Study of the Alone TV Series
+
+**Section:** A1 – Team 5
+**Team Members:** Abbinaya Kalidhas, Parthvi Joshi, Purnima Khemka, Sarah Dsouza
+
+---
+##Project Overview
+This project analyzes the survival competition show **Alone** to understand how survival difficulty, contestant composition, and geography influence audience engagement.
+
+Across three milestones, our work evolved from separate analyses of contestants, seasons, and engagement metrics into an integrated framework that connects:
+
+* Casting decisions
+* Realized survival intensity
+* Audience size (viewership)
+* Audience appreciation (IMDb ratings)
+
+Milestone 3 focuses on combining these dimensions into one cohesive analytical structure.
+
+---
+
+## Data & Methods
+
+We created two primary data aggregations:
+
+* **Contestant-Level Table** (individual survivalists)
+* **Season-Level Table** (aggregated season metrics)
+
+Key methods used:
+
+* Principal Component Analysis (PCA)
+* K-Means Clustering
+* Log transformations for skewed engagement metrics
+* Cluster validation (Elbow & Silhouette methods)
+
+---
+
+## Key Findings
+
+* Difficulty is **multi-dimensional** (endurance, medical risk, geography).
+* Geography alone does not determine difficulty.
+* Demographics do not clearly define a “winner profile.”
+* Harder seasons tend to receive **higher ratings but fewer viewers.**
+* Season 1 is distinct due to unusually high popularity rather than unique survival structure.
+
+Overall, we identify a **reach vs prestige tradeoff**:
+
+* Endurance-heavy seasons build credibility.
+* Moderated seasons attract broader audiences.
+
+---
+
+## Limitations
+
+* Small number of seasons limits clustering stability.
+* Mixed data types (boolean + continuous) complicate modeling.
+* Demographic imbalance among contestants.
+* Some missing viewership data.
+
+
+
+## Generative AI Disclosure
+
+ChatGPT was used for writing refinement and code formatting support only.
+All analysis, modeling decisions, and interpretations were conducted and validated by the team.
+
 
