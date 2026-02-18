@@ -1,4 +1,4 @@
-# Project Title (Primary) - A Data‑Driven Study of the Alone TV Series:  Survival, Strategy, and Screens
+# A Data‑Driven Study of the Alone TV Series:  Survival, Strategy, and Screens
 ### Domain
 Alone is a survival reality TV series on the History Channel in which 10 survivalists are dropped into remote wilderness locations, living in complete isolation and self-filming until they tap out or win. Survival shows are key assets for networks and streaming platforms, driving ratings, brand partnerships, and subscriptions.This dataset uniquely connects human performance under extreme isolation with audience engagement (viewership and ratings), offering a structured view of both survival outcomes and viewer behavior.
 ### Stakeholders
@@ -26,7 +26,7 @@ Data types: integers, floats, booleans, date strings, and multiple categorical/t
 - Viewership declines after Season 1 while IMDb ratings remain relatively stable, indicating strong initial interest but weaker long-term retention.
 - Episodes featuring intense survival moments (multiple tap-outs, late-stage survival) often align with local peaks in viewership and ratings, suggesting high-intensity content is more engaging.
   
-### Winners profile  EDA based on M2
+### Winners profile EDA based on M2
 
 **Motivation:**  Help casting directors cast a diverse set of demographic and talent (“winner-type”, "looser-type","neither the winner nor looser" ) such that fairness and viewership is improved
 
@@ -51,7 +51,7 @@ Merging Constraint: It must be done carefully to avoid row duplication as it lea
 
 
 
-# Project Title (Backup) : Uncovering County-level Childcare Affordability in the United States
+# Uncovering County-level Childcare Affordability in the United States
 ### Project Motivation and Key Stakeholders 
 This project examines the economics of childcare affordability across U.S. counties using data from 2008–2018 published by the National Database of Childcare Prices. Rising childcare costs have become a critical economic and social issue in the United States, influencing parents’ employment decisions (particularly for mothers), household financial stability, and fertility choices. Understanding geographic patterns and the structural drivers of childcare costs is therefore essential for designing effective interventions that help families, and societies as a whole, achieve improved overall well-being. Through this project, we aim to help the governments, employers, and community organizations in identifying high-burden regions, targeting subsidies, and evaluating whether childcare access aligns with local income levels and workforce needs.
 ### Major stakeholders include:
