@@ -1,5 +1,5 @@
 # M4 Refinement (Individual Submissions)
-### Casting profiles to ensure fairness and audience engagement
+### Casting profiles to ensure fairness and audience engagement - Sarah Dsouza
 | Cluster | Casting Profile/ Survivalist Profile |  |  |  |
 |---|---|---|---|---|
 | 0 | A small group of 10 contestants around 36 years of age, having a high <br>survival spirit (mostly winners).They give a medium level of viewership,<br>and ratings are likely to occur in the location Patagonia |  |  |  |
